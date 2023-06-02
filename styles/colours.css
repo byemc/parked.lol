@@ -1,0 +1,66 @@
+:root {
+    --black: #000000;
+    --white: #ffffff;
+
+    /* ByeCorps colour scheme. Use sparsely on this site. */
+    --byecorps-blue: #1b5652;
+    --byecorps-white: #e6feff;
+
+    /* Parking.lol colour scheme. Use on this site. */
+    --dark-olive: #46483C;
+    --olive: #A0AA8F;
+    --pale-greencolor: #EBE3CB; 
+    --orange: #F26101;
+}
+
+button, .button {
+    color: var(--dark-olive);
+    background-color: var(--pale-greencolor);
+}
+
+button:hover, .button:hover {
+    color: var(--olive);
+    background-color: var(--dark-olive);
+}
+
+button:disabled, .button:disabled {
+    color: var(--pale-greencolor) !important;
+    background-color: rgba(0, 0, 0, 0.25) !important;
+
+
+}
+
+/* header {
+    background-color: var(--);
+    color: var(--dark-slate-gray);
+}
+
+header a {
+    color: var(--dark-slate-gray);
+} */
+
+@media screen and (prefers-color-scheme: dark) {
+    button, .button {
+        color: var(--pale-greencolor);
+        background-color: var(--dark-olive);
+    }
+
+    button:hover, .button:hover {
+        color: var(--dark-olive);
+        background-color: var(--olive);
+    }
+
+    button:disabled, .button:disabled {
+        color: var(--dark-olive) !important;
+        background-color: rgba(0, 0, 0, 0.25) !important;
+    }
+/* 
+    header {
+        background-color: var(--dark-slate-gray);
+        color: var(--flax);
+    }
+
+    header a {
+        color: var(--flax);
+    } */
+}

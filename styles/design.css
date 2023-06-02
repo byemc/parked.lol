@@ -1,0 +1,32 @@
+/* This file holds the look and feel for ByeCorps products.
+
+  (c) 2023 ByeCorps. All rights reserved.
+*/
+
+button, .button {
+    border: none;
+    padding: 15px 32px;
+    margin: 4px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px; 
+    border-radius: 8px;
+    cursor: pointer;
+
+
+    transition: all 0.3s ease 0s;
+}
+
+button:disabled, .button:disabled {
+    cursor: not-allowed;
+}
+
+header a {
+    text-decoration: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: unset;
+}

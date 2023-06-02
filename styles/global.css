@@ -1,0 +1,12 @@
+@import url(./colours.css);
+@import url(./types.css);
+@import url(./design.css);
+@import url(./layout.css);
+
+:root {
+    color-scheme: light dark;
+}
+
+* {
+    box-sizing: border-box;
+}

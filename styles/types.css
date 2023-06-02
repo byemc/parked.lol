@@ -1,0 +1,35 @@
+/* This file deals with font types and font families. */
+
+@import url(https://fonts.bunny.net/css?family=montserrat:600,700);
+@import url(https://fonts.bunny.net/css?family=inter:600,700);
+@import url(https://fonts.bunny.net/css?family=kanit:400,400i,600,600i,700,700i,900,900i);
+
+html {
+    font-family: 'kanit', sans-serif;
+    font-weight: 400;
+}
+
+.neatnik-type {
+    font-family: 'inter', sans-serif;
+}
+
+.bc-type {
+    font-family: 'montserrat', sans-serif;
+}
+
+.bc-1 {
+    font-weight: 700;
+}
+
+.bc-2 {
+    font-weight: 600;
+}
+
+.bc-3 {
+    font-weight: 400;
+}
+
+button, .button {
+    font-family: 'kanit', sans-serif;
+    font-weight: 600;
+}
