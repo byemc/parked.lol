@@ -62,3 +62,5 @@ exit;
 landing:
 
 include('landing.html');
+
+?>
