@@ -31,27 +31,11 @@ if($host_string == 'parked.lol') goto landing;
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title><?php echo $host_string; ?> is parked, lol!</title>
-
-<link rel="stylesheet" href="/styles/global.css">
+<title><?php echo $host_string; ?></title>
 </head>
 <body>
-<main>
-
-<h1><?php echo $host_string; ?></h1>
-<p>This site has been parked! Check back later for something awesome.</p>
-
-</main>
-<footer>
-<div class="legal">
-<div>
-<p>This page has been parked with <a href="https://parked.lol" style="text-decoration: underline;">parked.lol</a>.</p>
-</div>
-</div>
-</footer>
+<h1><?php echo $host_string; ?> is parked on parked.lol</h1>
+<p>And is all the more awesome for it.</p>
 </body>
 </html>
 
@@ -62,5 +46,3 @@ exit;
 landing:
 
 include('landing.html');
-
-?>
